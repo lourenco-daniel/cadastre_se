@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffff;
+
+}
+
+#titulo {
+
+    background-color: rgb(94, 11, 11);
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding: 50px;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.grupo {
+    width: 200px;
+    float: left;
+    transform: translate(3%,16%);
+    background-color: #ffff;
+    font-family: 'Lobster', cursive;
+    padding: 25px;
+    margin: 15px;
+    border: 0ch;
+    border-radius: 30px;
+}
+
+.grupo2 {
+    width: 200px;
+    float: right;
+    transform: translate(-5%,13%);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    padding: 25px;
+    margin: 16px;
+    border: 0ch;
+    border-radius: 30px;
+}
+
+.campo {
+
+    color: rgb(94, 11, 11);
+    padding: 5px;
+    margin: 5px;
+    border: 0ch;
+    border-radius: 30px;
+}
+
+.entradas {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+    border-color: rgb(94, 11, 11);
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#button {
+    
+    text-align: center;
+    transform: translate(-100%,90%);
+    background-color: rgb(94, 11, 11);
+    font-family: 'Lobster', cursive;
+    color:rgb(255, 255, 255);
+    padding: 12px;
+    margin: 10px;
+    border: 0ch;
+    border-radius: 30px;
+    
+
+}
+
+#button:hover {
+    background-color: rgb(53, 3, 3);
+    color: rgb(235, 231, 231);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+
+#rodape {
+    margin-top: 126px;
+    padding: 88px;
+    background-color: rgb(235, 231, 231);
+    color: rgb(94, 11, 11);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
